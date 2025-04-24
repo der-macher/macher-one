@@ -1,0 +1,29 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore PHPStorm / VS Code configs
+.idea/
+.vscode/
+
+# Ignore Composer dependencies (falls verwendet)
+vendor/
+
+# Ignore Node dependencies (falls verwendet)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build/compiled files
+*.log
+*.zip
+*.tar.gz
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore WordPress-specific
+wp-content/plugins/  # Nur, wenn du dein Plugin im Plugin-Ordner hast – sonst löschen!
