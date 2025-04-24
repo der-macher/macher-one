@@ -1,0 +1,78 @@
+/* Zentrale CSS-Datei für alle Admin-Bereiche */
+
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 1fr 330px;
+  grid-gap: 25px;
+  padding: 40px 0;
+}
+
+body.toplevel_page_macher-dashboard .notice,
+body.toplevel_page_macher-dashboard .update-nag,
+body.toplevel_page_macher-dashboard .error,
+body.toplevel_page_macher-dashboard .updated {
+  display: none !important;
+}
+
+body.toplevel_page_macher-dashboard .dermacher-notice {
+  display: block !important;
+}
+
+
+.macher-suite-header a,
+.macher-suite-header p,
+.macher-suite-header h2 {
+  color: #f97316;
+}
+
+
+
+.macher-modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.macher-module-card {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.macher-module-card h2 {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.macher-module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.macher-status {
+  font-weight: bold;
+  font-size: 0.95em;
+}
+
+.macher-module-card form {
+  margin-top: 15px;
+}
+
+.macher-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.macher-pinboard h2 {
+  margin-top: 0;
+}

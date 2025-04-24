@@ -1,0 +1,158 @@
+.macher-suite-header a,
+.macher-suite-header p,
+.macher-suite-header h2 {
+  color: #f97316;
+}
+
+/* Container im 2-Spalten-Layout */
+.macher-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Linke Spalte: Tabs */
+  .macher-tab-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .macher-tab-links li {
+    margin-bottom: 10px;
+  }
+  
+  .macher-tab-links li a {
+    display: block;
+    padding: 10px 12px;
+    background: #f3f4f5;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .macher-tab-links li a:hover {
+    background: #e2e4e7;
+  }
+  
+  .macher-tab-links li.active a {
+    background: #2271b1;
+    color: #fff;
+    border-color: #2271b1;
+  }
+  
+  /* Rechte Spalte: Inhalt */
+  .macher-tab-content {
+    flex: 1;
+    min-width: 0;
+    background: #f3f4f5;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 10px 15px;
+  }
+  
+  .macher-tab-content .tab {
+    display: none;
+    padding: 10px 0;
+  }
+  
+  .macher-tab-content .tab.active {
+    display: block;
+  }
+  
+  .macher-tab-content .tab h2 {
+    margin-top: 0;
+  }
+  
+  .macher-tab-content .tab .form-table tr {
+    border-bottom: 1px solid #ccd0d4;
+  }
+  .macher-tab-content .tab .form-table tr th {
+    padding: 15px 0;
+  }
+  
+  .macher-tab-content .tab .form-table tr td.fontawesome {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 10px;
+    margin-bottom: 0;
+    padding: 15px 0;
+  }
+  .macher-tab-content .tab .form-table tr td.fontawesome input {
+    display: grid;
+    margin: 3px 0 0 0;
+    padding: 0 0;
+  }
+  .macher-tab-content .tab .form-table tr td.fontawesome p.description {
+    display: grid;
+    margin: 0 0;
+    padding: 0 0; 
+  }
+  .macher-tab-content .tab .submit {
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+  }
+  
+  /* Desktop (ab 769px) */
+  @media (min-width: 769px) {
+    .macher-tabs {
+      display: flex;
+      gap: 30px;
+    }
+  
+    .macher-tab-links {
+      display: flex;
+      flex-direction: column;
+      width: 220px;
+      flex: 0 0 200px;
+    }
+  
+    .macher-tab-links li a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 15px;
+    }
+  
+    .macher-tab-content {
+      flex-grow: 1;
+    }
+  }
+  
+  /* Mobile (bis 768px) */
+  @media (max-width: 768px) {
+    .macher-tabs {
+      flex-direction: column;
+    }
+  
+    .macher-tab-links {
+      flex: 0 0 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .macher-tab-links li {
+      flex-grow: 1;
+      text-align: center;
+    }
+  
+    .macher-tab-links li a {
+      display: block;
+      padding: 10px;
+    }
+  
+    /* Verstecke Text auf mobilen Geräten */
+    .macher-tab-links li a .tab-label {
+      display: none;
+    }
+  }
+  
+  

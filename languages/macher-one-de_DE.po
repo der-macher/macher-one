@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MACHER.one\n"
+"POT-Creation-Date: 2025-04-16\n"
+"PO-Revision-Date: 2025-04-22 14:13+0200\n"
+"Last-Translator: DerMacher <office@dermacher.at>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: macher-one\n"
+
+msgid "Die Suite für Profis"
+msgstr "Die Suite für Profis"
+
+msgid "Verwalte alle verfügbaren Module und Einstellungen zentral über dieses Panel."
+msgstr "Verwalte alle verfügbaren Module und Einstellungen zentral über dieses Panel."
+
+msgid "Backend Login Einstellungen"
+msgstr "Backend Login Einstellungen"
+
+msgid "Aktive Sprachen für Willkommensnachricht"
+msgstr "Aktive Sprachen für Willkommensnachricht"
+
+msgid "Nur aktivierte Sprachen werden im Login angezeigt. Inhalte bleiben bei Deaktivierung erhalten."
+msgstr "Nur aktivierte Sprachen werden im Login angezeigt. Inhalte bleiben bei Deaktivierung erhalten."
+
+msgid "Willkommensnachricht"
+msgstr "Willkommensnachricht"
+
+msgid "Änderungen speichern"
+msgstr "Änderungen speichern"
+
+msgid "Login-Anpassung"
+msgstr "Login-Anpassung"
+
+msgid "Logo-URL"
+msgstr "Logo-URL"
+
+msgid "Logo-Breite (px)"
+msgstr "Logo-Breite (px)"
+
+msgid "Hintergrundfarbe"
+msgstr "Hintergrundfarbe"
+
+msgid "Textfarbe"
+msgstr "Textfarbe"
+
+msgid "Buttonfarbe"
+msgstr "Buttonfarbe"
+
+msgid "Box-Hintergrund"
+msgstr "Box-Hintergrund"
+
+msgid "Box-Rahmenfarbe"
+msgstr "Box-Rahmenfarbe"
+
+msgid "Box-Ecken (px)"
+msgstr "Box-Ecken (px)"
+
+msgid "Abstand oben (px)"
+msgstr "Abstand oben (px)"
+
+msgid "Box-Breite (px)"
+msgstr "Box-Breite (px)"
+
+msgid "Schatten aktivieren"
+msgstr "Schatten aktivieren"
+
+msgid "Bild auswählen"
+msgstr "Bild auswählen"
+
+msgid "Entfernen"
+msgstr "Entfernen"
+
+msgid "Verwenden"
+msgstr "Verwenden"
+
+msgid "Einstellungen gespeichert."
+msgstr "Einstellungen gespeichert."
+
+msgid "Aktiv"
+msgstr "Aktiv"
+
+msgid "Deaktiviert"
+msgstr "Deaktiviert"
+
+msgid "MACHER.one – Zentrale Übersicht"
+msgstr "MACHER.one – Zentrale Übersicht"
+
+msgid "Backend Login"
+msgstr "Backend Login"
+
+msgid "Gestalte das WordPress-Login individuell mit Logo und Farben."
+msgstr "Gestalte das WordPress-Login individuell mit Logo und Farben."
+
+msgid "Modul aktivieren"
+msgstr "Modul aktivieren"
+
+msgid "Speichern"
+msgstr "Speichern"
+
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "macher.one"
+msgstr "macher.one"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Du bist leider nicht berechtigt, auf diese Seite zuzugreifen."
+msgstr "Du bist leider nicht berechtigt, auf diese Seite zuzugreifen."
+
+msgid "Deutsch"
+msgstr "Deutsch"
+
+msgid "Englisch"
+msgstr "Englisch"
+
+msgid "Französisch"
+msgstr "Französisch"
+
+msgid "Italienisch"
+msgstr "Italienisch"
+
+msgid "Spanisch"
+msgstr "Spanisch"
+
+msgid "Pinnwand"
+msgstr "Pinnwand"
+
+msgid "Was du als Nächstes von der MACHER.one Suite erwarten kannst:"
+msgstr "Was du als Nächstes von der MACHER.one Suite erwarten kannst:"
+
+msgid "Mehr Anpassungsmöglichkeiten beim Backend-Login-Modul."
+msgstr "Mehr Anpassungsmöglichkeiten beim Backend-Login-Modul."
+
+msgid "Geplant für:"
+msgstr "Geplant für:"
+
+msgid "Übersicht"
+msgstr "Übersicht"
+
+msgid "Passe den Loginbereich deiner WordPress-Website individuell an."
+msgstr "Passe den Loginbereich deiner WordPress-Website individuell an."
+
+msgid " Modul aktivieren"
+msgstr " Modul aktivieren"
+
+msgid "Allgemein"
+msgstr "Allgemein"
+
+msgid "Font Awesome global laden"
+msgstr "Font Awesome global laden"
+
+msgid "Aktiviere diese Option, um Font Awesome auf der gesamten WordPress-Website verfügbar zu machen."
+msgstr "Aktiviere diese Option, um Font Awesome auf der gesamten WordPress-Website verfügbar zu machen."
+
+msgid "Login-Verhalten"
+msgstr "Login-Verhalten"
+
+msgid "Wähle aus, wie sich Benutzer beim Login identifizieren dürfen."
+msgstr "Wähle aus, wie sich Benutzer beim Login identifizieren dürfen."
+
+msgid "Willkommensnachricht (Deutsch)"
+msgstr "Willkommensnachricht (Deutsch)"
