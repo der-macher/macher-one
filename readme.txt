@@ -5,7 +5,7 @@ Tags: login, admin, dashboard, backend, customize
 Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 Text Domain: macher-one
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -23,7 +23,7 @@ Weitere Funktionen:
 * Tab-basiertes Einstellungsmenü
 * Global oder Plugin-intern ladbare Font Awesome Icons
 * DSGVO-konform – keine externen Ressourcen
-* Mehrsprachige Eingabefelder (DE, EN, FR, IT, ES)
+* Mehrsprachige Eingabefelder (DE, EN)
 * Valide Ausgabe, escaping & sanitizing WordPress-konform
 
 MACHER.one ist vollständig mehrsprachig vorbereitet und modular erweiterbar.
@@ -40,7 +40,7 @@ Additional features:
 * Tab-based settings panel
 * Font Awesome icons optionally loaded globally or plugin-only
 * GDPR-compliant – no external resources
-* Multilingual support for settings (DE, EN, FR, IT, ES)
+* Multilingual support for settings (DE, EN)
 * Secure and standards-compliant: proper escaping and sanitization
 
 MACHER.one is fully translation-ready and designed to scale modularly.
@@ -58,10 +58,10 @@ MACHER.one is fully translation-ready and designed to scale modularly.
 == Frequently Asked Questions ==
 
 = DE: Was kann das Plugin aktuell? =
-Aktuell enthält das Plugin das Modul **„Backend Login“**, mit dem sich das WordPress-Login individuell gestalten lässt – mit Farben, Logo, Layout-Styling und mehrsprachiger Willkommensnachricht.
+Aktuell enthält das Plugin das Modul **„Backend Login“**, mit dem sich das WordPress-Login individuell gestalten lässt – mit Farben, Logo, Layout-Styling und mehrsprachiger Willkommensnachricht. Zusätzlich gibt es einen globalen Einstellungsbereich für KI-bezogene Medienoptionen.
 
 = EN: What does the plugin currently do? =
-Currently, the plugin includes the **“Backend Login”** module to customize the WordPress login screen with logo, colors, styling, and multilingual welcome messages.
+Currently, the plugin includes the **“Backend Login”** module to customize the WordPress login screen with logo, colors, styling, and multilingual welcome messages. Additionally, it offers a global settings area for AI media display options.
 
 = DE: Ist das Plugin modular erweiterbar? =
 Ja. Neue Module können sich automatisch in das Dashboard einhängen und zentral gesteuert werden.
@@ -77,6 +77,10 @@ Not yet – integration is planned. The plugin is WooCommerce-compatible.
 
 == Changelog ==
 
+= 1.2.1 =
+* Verbesserte Zustandsverwaltung für Modul-Aktivierung  
+  Improved module activation logic and state handling
+
 = 1.2.0 =
 * NEU: Font Awesome kann global oder nur für das Plugin geladen werden  
   NEW: Font Awesome can be loaded globally or plugin-only  
@@ -84,8 +88,8 @@ Not yet – integration is planned. The plugin is WooCommerce-compatible.
   NEW: Tab layout for intuitive admin settings  
 * Login-Verhalten einstellbar (Benutzername, E-Mail oder beides)  
   Configurable login behavior (username, email, or both)  
-* Mehrsprachige Willkommensnachrichten (DE, EN, FR, IT, ES)  
-  Multilingual welcome messages (DE, EN, FR, IT, ES)  
+* Mehrsprachige Willkommensnachrichten (DE, EN)  
+  Multilingual welcome messages (DE, EN)  
 * Dynamisches Styling & Validierung des Login-Feldes  
   Dynamic login validation and label updates  
 * Verbesserte Sicherheit (Nonce, escaping, sanitizing)  
@@ -106,9 +110,9 @@ Not yet – integration is planned. The plugin is WooCommerce-compatible.
   Initial version with module system and dashboard
 
 == Upgrade Notice ==
-= 1.2.0 =
-DE: Großes Funktionsupdate: Font Awesome, mehrsprachiger Login, Login-Verhalten steuerbar  
-EN: Major update: Font Awesome, multilingual login, and configurable login behavior
+= 1.2.1 =
+DE: Neues Einstellungsmodul für KI Medien – positioniere Hinweise global und unabhängig vom Plugin  
+EN: New global “AI Media” configuration – centralized handling for future integrations
 
 == License ==
 Dieses Plugin ist unter der GPLv2 oder einer späteren Version lizenziert.  

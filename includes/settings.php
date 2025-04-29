@@ -14,10 +14,13 @@ if (!function_exists('macher_one_get_header_html')) {
         ob_start();
         ?>
         <div class="macher-suite-header" style="text-align:center; margin-bottom:40px;">
-            <div class="macher-header-logo" style="background: url('<?php echo esc_url('https://macher.one/wp-content/uploads/2025/03/logo-dermacher-one-dark.webp'); ?>') no-repeat center center; background-size: contain; height: 60px; margin-bottom: 10px;"></div>
-            <h2 style="margin: 0;"><?php echo esc_html__('Die Suite für Profis', 'macher-one'); ?></h2>
-            <p style="font-size: 14px;"><?php echo esc_html__('Verwalte alle verfügbaren Module und Einstellungen zentral über dieses Panel.', 'macher-one'); ?></p>
-        </div>
+			<a href="https://macher.one" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+				<img src="<?php echo esc_url(MACHER_PLUGIN_URL . 'assets/images/logo-dermacher-one-dark.webp'); ?>" alt="<?php echo esc_attr__('MACHER.one Logo', 'macher-one'); ?>" />
+			</a>
+			<h2><?php echo esc_html__('Die Suite für Profis', 'macher-one'); ?></h2>
+			<p><?php echo esc_html__('Verwalte alle verfügbaren Module und Einstellungen zentral über dieses Panel.', 'macher-one'); ?></p>
+		</div>
+
         <?php
         return ob_get_clean();
     }
