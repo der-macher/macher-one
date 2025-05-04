@@ -2,7 +2,7 @@
 /*
 Plugin Name: MACHER.one
 Description: MACHER.one suite is a core plugin for centrally managing backend modules.
-Version: 1.2.1
+Version: 1.2.2
 Author: MACHER
 Author URI: https://www.macher.one
 License: GPLv2 or later

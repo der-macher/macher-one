@@ -167,3 +167,54 @@ msgstr "Choose how users are allowed to log in."
 
 msgid "Willkommensnachricht (Deutsch)"
 msgstr "Welcome message (German)"
+
+msgid "Die Suite für Profis"
+msgstr "The suite for professionals"
+
+msgid "Verwalte alle verfügbaren Module und Einstellungen zentral über dieses Panel."
+msgstr "Manage all available modules and settings centrally via this panel."
+
+msgid "Backend Login Einstellungen"
+msgstr "Backend Login Settings"
+
+msgid "Aktive Sprachen für Willkommensnachricht"
+msgstr "Active languages for welcome message"
+
+msgid "Nur aktivierte Sprachen werden im Login angezeigt. Inhalte bleiben bei Deaktivierung erhalten."
+msgstr "Only activated languages are shown on login. Content remains saved even if deactivated."
+
+msgid "Willkommensnachricht"
+msgstr "Welcome message"
+
+msgid "Änderungen speichern"
+msgstr "Save changes"
+
+msgid "Login-Anpassung"
+msgstr "Login customisation"
+
+msgid "Schatten aktivieren"
+msgstr "Enable shadow"
+
+msgid "Einstellungen gespeichert."
+msgstr "Settings saved."
+
+msgid "Geplant für:"
+msgstr "Planned for:"
+
+msgid "Passe den Loginbereich deiner WordPress-Website individuell an."
+msgstr "Customise the login area of your WordPress site."
+
+msgid "Allgemeine Optionen"
+msgstr "General options"
+
+msgid "KI Medien"
+msgstr "AI Media"
+
+msgid "KI Label"
+msgstr "AI Label"
+
+msgid "Verwalte globale Einstellungen für KI-Bilder (Position, Stil, Text)."
+msgstr "Manage global settings for AI-generated images (position, style, text)."
+
+msgid "MACHER.one Logo"
+msgstr "MACHER.one Logo"

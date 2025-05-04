@@ -33,9 +33,12 @@ function macher_one_render_settings_page() {
                 <?php if (get_option('macher_backend_login_enabled', false)) : ?>
                     <li><a href="#tab-2"><i class="fa-solid fa-shield-halved"></i> <?php esc_html_e('Backend Login', 'macher-one'); ?></a></li>
                 <?php endif; ?>
+                <li><a href="#tab-3"><i class="fa-solid fa-brain"></i> <?php esc_html_e('KI Label', 'macher-one'); ?></a></li>
             </ul>
 
             <div class="macher-tab-content">
+
+                <!-- Allgemein -->
                 <div id="tab-1" class="tab active">
                     <form method="post" action="options.php">
                         <h2><?php esc_html_e('Allgemeine Optionen', 'macher-one'); ?></h2>
@@ -59,6 +62,7 @@ function macher_one_render_settings_page() {
                     </form>
                 </div>
 
+                <!-- Backend Login -->
                 <?php if (get_option('macher_backend_login_enabled', false)) : ?>
                 <div id="tab-2" class="tab">
                     <form method="post" action="options.php">
@@ -101,6 +105,41 @@ function macher_one_render_settings_page() {
                     </form>
                 </div>
                 <?php endif; ?>
+
+                <!-- KI Label -->
+                <?php if (is_plugin_active('m1-ai-label/m1-ai-label.php')) : ?>
+                    <div id="tab-3" class="tab">
+                    <form method="post" action="options.php">
+                        <h2><?php esc_html_e('Grundeinstellungen für KI Label', 'macher-one'); ?></h2>
+                        <table class="form-table">
+                            <tr>
+                                <th scope="row">
+                                    <label for="macher_ki_rename_enabled"><?php esc_html_e('Automatische Dateiumbenennung („_ki“)', 'macher-one'); ?></label>
+                                </th>
+                                <td>
+                                    <?php $rename = get_option('macher_ki_rename_enabled', '0'); ?>
+                                    <input type="checkbox" name="macher_ki_rename_enabled" id="macher_ki_rename_enabled" value="1" <?php checked($rename, '1'); ?> />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <label for="macher_ki_debug_enabled"><?php esc_html_e('Debug-Modus aktivieren', 'macher-one'); ?></label>
+                                </th>
+                                <td>
+                                    <?php $debug = get_option('macher_ki_debug_enabled', '0'); ?>
+                                    <input type="checkbox" name="macher_ki_debug_enabled" id="macher_ki_debug_enabled" value="1" <?php checked($debug, '1'); ?> />
+                                </td>
+                            </tr>
+                        </table>
+                        <?php
+                        settings_fields('macher_ki_media_settings');
+                        do_settings_sections('macher_ki_media_settings');
+                        submit_button(__('Änderungen speichern', 'macher-one'));
+                        ?>
+                    </form>
+                    </div>
+                <?php endif; ?>
+
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@ if (!function_exists('macher_one_get_header_html')) {
         ?>
         <div class="macher-suite-header" style="text-align:center; margin-bottom:40px;">
 			<a href="https://macher.one" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
-				<img src="<?php echo esc_url(MACHER_PLUGIN_URL . 'assets/images/logo-dermacher-one-dark.webp'); ?>" alt="<?php echo esc_attr__('MACHER.one Logo', 'macher-one'); ?>" />
+				<img src="<?php echo esc_url(MACHER_PLUGIN_URL . 'assets/images/logo-macher-one-dark.webp'); ?>" alt="<?php echo esc_attr__('MACHER.one Logo', 'macher-one'); ?>" />
 			</a>
 			<h2><?php echo esc_html__('Die Suite für Profis', 'macher-one'); ?></h2>
 			<p><?php echo esc_html__('Verwalte alle verfügbaren Module und Einstellungen zentral über dieses Panel.', 'macher-one'); ?></p>

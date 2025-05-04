@@ -167,3 +167,36 @@ msgstr "Wähle aus, wie sich Benutzer beim Login identifizieren dürfen."
 
 msgid "Willkommensnachricht (Deutsch)"
 msgstr "Willkommensnachricht (Deutsch)"
+
+msgid "KI Medien"
+msgstr "AI Media"
+
+msgid "KI Label"
+msgstr "AI Label"
+
+msgid "Verwalte globale Einstellungen für KI-Bilder (Position, Stil, Text)."
+msgstr "Verwalte globale Einstellungen für KI-Bilder (Position, Stil, Text)."
+
+msgid "Modul aktivieren"
+msgstr "Modul aktivieren"
+
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "Allgemeine Optionen"
+msgstr "Allgemeine Optionen"
+
+msgid "Aktiviere diese Option, um Font Awesome auf der gesamten WordPress-Website verfügbar zu machen."
+msgstr "Aktiviere diese Option, um Font Awesome auf der gesamten WordPress-Website verfügbar zu machen."
+
+msgid "Font Awesome global laden"
+msgstr "Font Awesome global laden"
+
+msgid "MACHER.one Logo"
+msgstr "MACHER.one Logo"
+
+msgid "KI Label"
+msgstr "KI Label"
+
+msgid "Verwalte globale Einstellungen für KI-Bilder (Position, Stil, Text)."
+msgstr "Verwalte globale Einstellungen für KI-Bilder (Position, Stil, Text)."
